@@ -13,7 +13,7 @@ using namespace std;
 
 int main() {
     const unsigned NUM_POS = 21;
-    int vector[]= {1, -5, -8, 6, 8, -3, -4, -6, 6, -1, 5, -8, 1, 9, 5, -9, 5, 8, 9, -2, -9};
+    int vector[NUM_POS]= {1, -5, -8, 6, 8, -3, -4, -6, 6, -1, 5, -8, 1, 9, 5, -9, 5, 8, 9, -2, -9};
     unsigned positivos = 0;
 
     for (unsigned i = 0; i < NUM_POS; i++) {
